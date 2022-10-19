@@ -15,13 +15,15 @@ h2 {
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5;
+  text-decoration: bold;
 }
 
 h3 {
   margin-top: 0;
   font-family: 'Montserrat', sans-serif;
-  color: #66BFBF;
-}
+  
+  text-decoration: underline;
+} 
 
 .top {
   /* background-color: #F0D9FF; */
@@ -39,4 +41,30 @@ h3 {
   position: absolute;
   left: 250px;
   bottom: 300px;
+}
+.skills {
+  background-image: url("../images/Sunset\ Background.png");
+  height: 200px;
+  padding-top:350px;
+  padding-bottom:450px;
+  
+}
+.skills h3{
+  color: rgb(137, 17, 197);
+}
+.skill-row {
+  font-size: larger;
+  position: relative;
+  bottom: 200px;
+}
+.bottom-section {
+  padding: 50px;
+  background-image: linear-gradient(90deg, #020024 0%, #1919a7 35%, #00d4ff 100%);
+  color: #fff;
+}
+.profile{
+  padding: 50px;
+}
+.bottom-section h3{
+  color: rgb(23, 214, 83);
 }
