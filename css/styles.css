@@ -27,7 +27,7 @@ h3 {
 
 .top {
   /* background-color: #F0D9FF; */
-  background-color: skyblue;
+  background-color: #87ceeb;
   padding-top: 100px;
 }
 
@@ -47,10 +47,12 @@ h3 {
   height: 200px;
   padding-top:350px;
   padding-bottom:450px;
+  box-shadow:0 0 5px 10px #f3f3f3;
+  
   
 }
 .skills h3{
-  color: rgb(137, 17, 197);
+  color: rgb(10, 90, 17);
 }
 .skill-row {
   font-size: larger;
@@ -58,13 +60,31 @@ h3 {
   bottom: 200px;
 }
 .bottom-section {
-  padding: 50px;
-  background-image: linear-gradient(90deg, #020024 0%, #1919a7 35%, #00d4ff 100%);
-  color: #fff;
+  
+  /* background-image: linear-gradient(90deg, #020024 0%, #1919a7 35%, #00d4ff 100%); */
+  /* background: linear-gradient(180deg, #1919a7, #1d20a2, #21269d, #262b97, #2a2f91, #2f338b, #333785); */
+  background: linear-gradient(180deg, #87ceeb, #8cd0ec, #99d5ee, #abddf1, #c1e6f5, #d7eff9, #ebf7fc, #f9fdfe, #ffffff);
+  color: #000000;
+  padding-bottom: 100px;
+  box-shadow: 0 0 5px 100px #87ceeb;
 }
 .profile{
-  padding: 50px;
+  padding: 20px;
+  height: 50px;
+  padding-top:100px;
+  padding-bottom:400px;
+  /* background-image: url("../images/foggy_bg.webp"); */
+  background-color: #ffffff;
 }
 .bottom-section h3{
-  color: rgb(23, 214, 83);
+  color: rgb(10, 74, 32);
 }
+.trans1{
+  height: 200px;
+  /* background: linear-gradient(180deg, #00d4ff, #06dbff, #16ebff, #2cfeff, #46ffee, #5fffe1, #75ffda, #85ffd7, #8bffd6); */
+  background: linear-gradient(180deg, #87ceeb, #8cd0ec, #99d5ee, #abddf1, #c1e6f5, #d7eff9, #ebf7fc, #f9fdfe, #ffffff);
+}
+/* .trans2 {
+  height: 100px;
+  background: linear-gradient(180deg, #0d0008, #21041c, #2f0430, #3a0148, #3f0064, #3a0984, #1919a7);
+} */
